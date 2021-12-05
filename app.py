@@ -12,7 +12,7 @@ posts = []
 class post(BaseModel):
     fecha: datetime = datetime.now()
     cliente_id: str
-    descripcion: Text 
+    descripcion: str
     subtotal: str
     itbis: str
     total: str
